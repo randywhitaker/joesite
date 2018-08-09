@@ -1,0 +1,14 @@
+npm i electron --save-dev
+npm i electron-packager --save-dev
+npm i asar --save-dev
+
+  "scripts": {
+    "start": "electron .",
+    "package": "",
+    "build": "electron-packager . joesite && cp favicon.ico"
+  },
+
+npm run build
+
+to remove this file use
+> rm -rf joesite-win32-x64
